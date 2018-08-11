@@ -25,7 +25,7 @@ import reactor.core.publisher.Mono;
  *
  */
 @RestController
-@RequestMapping("/v1/onboarding")
+@RequestMapping("/v1/onboarding/prospects")
 public class ProspectsController {
 
 	private final ProspectRepo repo;
